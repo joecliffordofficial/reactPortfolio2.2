@@ -3,6 +3,8 @@ import Home from './components/Home'
 import About from "./components/About"
 import NavBar from "./components/NavBar"
 import Skills from "./components/Skills"
+import { Works } from "./components/Works"
+import Resume from "./components/Resume"
 import Footer from './components/Footer'
 import './App.css';
 
@@ -16,6 +18,8 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
           <Route exact path="/skills" component={Skills} />
+          <Route exact path="/works" component={Works} />
+          <Route exact path="/resumé" component={Resume} />
 
         </Switch>
         <Footer />

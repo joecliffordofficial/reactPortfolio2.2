@@ -4,6 +4,7 @@ import './style.css'
 const Footer = () => {
     return (
         <footer>
+            <p>Contact me via the icons!</p>
             <a
                 href='https://www.instagram.com/_clifftography_/'
                 target="_blank">
@@ -22,6 +23,7 @@ const Footer = () => {
                 <img src={`${process.env.PUBLIC_URL}/github_logo.svg`}
                     alt="github-icon" />
             </a>
+
         </footer>
     )
 }

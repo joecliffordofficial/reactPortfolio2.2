@@ -14,6 +14,7 @@
     display: flex;
     max-width: 130px;
     height: 100%;
+    border-radius: 5px;
 }
 
 .logo img {

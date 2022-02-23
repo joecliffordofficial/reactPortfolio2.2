@@ -28,7 +28,8 @@ const NavBar = () => {
                 <div className='logo'>
                     < Link to="/">
                         <img src={`${process.env.PUBLIC_URL}/profile_logo.png`}
-                            alt='brand' />
+                            alt='brand' 
+                            className='logo'/>
                     </Link>
                 </div>
                 <div className='list-wrapper'>
@@ -47,7 +48,6 @@ const NavBar = () => {
                         }} />
                     <ul style={{ left: open ? "0" : "-100vw" }}>
                         <li>
-                            <Link to="/">Home</Link>
                             <li>
                                 <Link to="/about">About</Link>
                             </li>
@@ -58,7 +58,7 @@ const NavBar = () => {
                                 <Link to="/works">Works</Link>
                             </li>
                             <li>
-                                <Link to="/contact">Contact</Link>
+                                <Link to="/resumé">Resumé</Link>
                             </li>
                         </li>
                     </ul>
